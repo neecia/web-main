@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.tb-r {
+  border: 1px solid red;
+}
+
+.tb-b {
+  border: 1px solid blue;
+}
+
+.tb-g {
+  border: 1px solid green;
+}
+
+.main_bg {
+  background-color: #aa00ff;
+}
+
+.sub_bg {
+  background-color: #e6783c;
+}
+.outer_bg {
+  background-color: #1a1a2a;
+}
+.inner_bg {
+  background-color: #262739;
+}
+
+.sigma {
+  .shogun_bg-primary {
+    background-color: #1a1a2a;
+  }
+
+  .shogun_bg-secondary {
+    background-color: #262739;
+  }
+}
+
+.main_c {
+  color: #aa00ff;
+}
+
+.sub_c {
+  color: #e6783c;
+}
+
+.main_fill {
+  fill: #aa00ff;
+}
+
+.error_c {
+  color: #dc4d4d;
+}
+
+.error_bg {
+  background-color: #dc4d4d;
+}
+
+.warning_c {
+  color: #34c2ff;
+}
+.warning_bg {
+  background-color: #34c2ff;
+}
+
+.main_bd {
+  border-color: #aa00ff;
+}
+
+.sub_bd {
+  border-color: #e6783c;
+}
+
+/** Web3 Onboard Custom Style */
+/* 
+:root {
+  --onboard-modal-z-index: 100;
+
+  --onboard-connect-sidebar-background: #e6783c;
+  --onboard-connect-sidebar-color: #262739;
+  // --onboard-close-button-background: #0b0b22;
+  // --onboard-close-button-color: white;
+  --onboard-connect-sidebar-progress-background: #262739;
+  --onboard-connect-sidebar-progress-color: #aa00ff;
+  --onboard-main-scroll-container-background: #262739;
+  @media screen and (max-width: 767px) {
+    --onboard-main-scroll-container-background: #e6783c;
+  }
+
+  --onboard-connect-header-background: #262739;
+  --onboard-connect-header-color: #e6783c;
+
+  // Container Wallet Button
+  --onboard-wallet-button-color: "#e6783c";
+  --onboard-wallet-button-background-hover: #aa00ff;
+  --onboard-wallet-button-border-color: none;
+  // --onboard-wallet-app-icon-border-color: none;
+  --onboard-close-button-background: none;
+  --onboard-close-button-color: #aa00ff;
+
+  // Account Center
+  --account-center-z-index: 99;
+  --account-center-minimized-background: #262739;
+  --account-center-minimized-address-color: #e6783c;
+  --account-center-app-btn-background: #aa00ff;
+  --account-center-micro-background: #262739;
+  // --account-center-border: #aa00ff;
+  --account-center-maximized-upper-action-color: #aa00ff;
+  // --account-center-maximized-info-section-background-color: #aa00ff
+
+  // Colors
+  // --onboard-gray-700: #e6783c;
+}
+*/
